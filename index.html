@@ -7,7 +7,31 @@
     <title>Tic-Tac-Toe</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Tic-Tac-Toe</h1>
+        <h2 id="current-player"></h2>
+        <button id="start-button" type="button">Start game</button>
+    </header>
+    <main>
+        <div id="row1">
+            <div class="play-spot" id="one-one" data-row ="1" data-column="1"></div>
+            <div class="play-spot" id="one-two" data-row ="1" data-column="2"></div>
+            <div class="play-spot" id="one-three" data-row ="1" data-column="3"></div>
+        </div>
+        
+        <div id="row2">
+            <div class="play-spot" id="two-one" data-row ="2" data-column="1"></div>
+            <div class="play-spot" id="two-two" data-row ="2" data-column="2"></div>
+            <div class="play-spot" id="two-three" data-row ="2" data-column="3"></div>
+        </div>
+        
+        <div id="row3">
+            <div class="play-spot" id="three-one" data-row ="3" data-column="1"></div>
+            <div class="play-spot" id="three-two" data-row ="3" data-column="2"></div>
+            <div class="play-spot" id="three-three" data-row ="3" data-column="3"></div>
+        </div>
+        
+    </main>
 </body>
 <script src="game.js"></script>
 </html>
