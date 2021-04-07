@@ -1,18 +1,74 @@
+/* TO DO */
+/* responsive sizing */
+
+
+body {
+    background-color: #150e56;
+    color: #7b113a;
+    font-family: 'Press Start 2P', monospace;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+button {
+    background-color: #1597bbd8;
+    border: none;
+    border-radius: 10px;
+    color: #7b113a;
+    font-family:'Press Start 2P', monospace;
+    font-size: 1.5em;
+    padding: 7px;
+    margin: 30px auto;
+}
+
+button:hover {
+    background-color: #8fd6e1;
+}
+
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
     gap: 0;
-    width: 300px;
+    width: 600px;
     margin: auto;
 }
 
 .play-spot {
-    background-color: transparent;
-    border: solid 2px black;
-    height: 100px;
-    width: 100px;
+    background-color: #1597bbd8;
+    border: solid 5px #7b113a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7em;
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+
+.play-spot:hover {
+    background-color: #8fd6e1;
 }
 
 .hidden {
     display: none;
+}
+
+#one-one {
+    border-top-left-radius: 25px;
+}
+
+#one-three {
+    border-bottom-left-radius: 25px;
+}
+
+#three-one {
+    border-top-right-radius: 25px;
+}
+
+#three-three {
+    border-bottom-right-radius: 25px;
 }
