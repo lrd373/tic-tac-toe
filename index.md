@@ -18,37 +18,37 @@
     <main>
         <div id="column1">
             <div class="play-spot" id="one-one" data-column ="1" data-row="1">
-                <div class="inner-text"></div>
+              <div class="inner-text"></div>
             </div>
             <div class="play-spot" id="one-two" data-column ="1" data-row="2">
-                <div class="inner-text"></div>
+              <div class="inner-text"></div>
             </div>
             <div class="play-spot" id="one-three" data-column ="1" data-row="3">
-                <div class="inner-text"></div>
+              <div class="inner-text"></div>
             </div>
         </div>
         
         <div id="column2">
             <div class="play-spot" id="two-one" data-column ="2" data-row="1">
-                <div class="inner-text"></div>
+              <div class="inner-text"></div>
             </div>
             <div class="play-spot" id="two-two" data-column ="2" data-row="2">
-                <div class="inner-text"></div>
+              <div class="inner-text"></div>
             </div>
             <div class="play-spot" id="two-three" data-column ="2" data-row="3">
-                <div class="inner-text"></div>
+              <div class="inner-text"></div>
             </div>
         </div>
         
         <div id="column3">
             <div class="play-spot" id="three-one" data-column ="3" data-row="1">
-                <div class="inner-text"></div>
+              <div class="inner-text"></div>
             </div>
             <div class="play-spot" id="three-two" data-column ="3" data-row="2">
-                <div class="inner-text"></div>
+              <div class="inner-text"></div>
             </div>
             <div class="play-spot" id="three-three" data-column ="3" data-row="3">
-                <div class="inner-text"></div>
+              <div class="inner-text"></div>
             </div>
         </div>
         

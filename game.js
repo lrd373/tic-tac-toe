@@ -1,9 +1,5 @@
 // FOR LATER: Add 'play against computer' option
 
-
-// TO DO
-// Find bug where tie registers as O winning?
-
 // Gameboard as module
 const gameboard = (() => {
     // An array of spot objects based on playSpotFactory
@@ -191,7 +187,7 @@ function playSpotFactory(spotId, row, column) {
 
     const setState = (text) => {
         _state = text;
-        thisSpot().firstChild.textContent = _state;
+        thisSpot().textContent = _state;
     };
 
     const getRow = () => {
